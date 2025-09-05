@@ -239,8 +239,13 @@ img {
 }
 
 @media (max-width: 600px) {
+
   .page-header {
     flex-direction: column;
+  }
+
+  .logo {
+    width: 220px;
   }
 
   .main-nav {
