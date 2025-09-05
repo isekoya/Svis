@@ -475,6 +475,10 @@ iframe {
   width: 30%;
 }
 
+.twitter-timeline {
+  display: block;
+}
+
 @media (max-width: 600px) {
 
   .contact-title {
@@ -519,15 +523,17 @@ iframe {
 
   .sns-box {
     margin-bottom: 30px;
-    height: 400px;
   }
 
-  .YouTube-box {
+  .Facebook-iframe {
+    height: 250px;
+  }
+
+  .YouTube-iframe {
     height: 30vh;
   }
 
   .sns-wrapper {
     padding-top: 30px;
-    padding-bottom: 80px;
   }
 }
