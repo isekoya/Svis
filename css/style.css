@@ -508,16 +508,26 @@ iframe {
     height: 300px;
   }
 
+  .location-wrapper {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
   iframe {
     height: 100%;
   }
 
   .sns-box {
     margin-bottom: 30px;
-    height: 200px;
+    height: 400px;
+  }
+
+  .YouTube-box {
+    height: 30vh;
   }
 
   .sns-wrapper {
+    padding-top: 30px;
     padding-bottom: 80px;
   }
 }
