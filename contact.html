@@ -1,8 +1,9 @@
 
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spectacular view introduction shop</title>
     <meta property="og:url" content="https://sy5725.github.io/Svis/index.html">
     <meta property="og:type" content="article">
@@ -28,27 +29,27 @@
         <h1 class="logo-btn"><a href="index.html"><img class="logo" src="images/logo.png" alt="絶景紹介屋"></a></h1>
         <nav>
           <ul class="main-nav">
-            <li><a href="news.html">News</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-li"><a class="nav-btn" href="news.html">News</a></li>
+            <li class="nav-li"><a class="nav-btn" href="menu.html">Menu</a></li>
+            <li class="nav-li"><a class="nav-btn" href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
       <div class="wrapper">
-        <h2 class="page-title">Contact</h2>
-        <form action="#">
-          <div>
-            <label for="name">お名前</label>
+        <h2 class="contact-title page-title">Contact</h2>
+        <form  class="form" action="#">
+          <div class="form-items">
+            <label for="name" class="form-label">お名前</label>
             <input type="text" id="name" name="your-name">
           </div>
 
-          <div>
-            <label for="email">メールアドレス</label>
+          <div class="form-items">
+            <label class="form-label" for="email">メールアドレス</label>
             <input type="email" id="email" name="your-email">
           </div>
 
-          <div>
-            <label for="message">メッセージ</label>
+          <div class="form-items">
+            <label class="form-label" for="message">メッセージ</label>
             <textarea id="message" name="your-message"></textarea>
           </div>
 
@@ -57,11 +58,11 @@
       </div>
     </div><!-- /#contact -->
 
-    <section id="location">
-      <div class="wrapper">
+    <section class="location">
+      <div class="location-wrapper wrapper">
         <div class="location-info">
           <h3 class="sub-title">SHOP　八王子店</h3>
-          <p>
+          <p class="info-text">
             住所：東京都八王子市<br>
             〇〇〇〇〇〇〇　000-11-2<br>
             〇〇〇〇<br>
@@ -76,28 +77,28 @@
       </div><!-- /.wrapper -->
     </section><!-- /#location -->
     
-    <section id="sns">
-      <div class="wrapper">
+    <section class="sns">
+      <div class="sns-wrapper wrapper">
         <div class="sns-box">
-          <h3 class="sub-title">Facebook</h3>
+          <h3 class="sns-title sub-title">Facebook</h3>
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
 
         <div class="sns-box">
-          <h3 class="sub-title">Twitter</h3>
+          <h3 class="sns-title sub-title">Twitter</h3>
           <a class="twitter-timeline" href="https://twitter.com/koise0725?ref_src=twsrc%5Etfw">Tweets by koise0725</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
 
         <div class="sns-box">
-          <h3 class="sub-title">YouTube</h3>
+          <h3 class="sns-title sub-title">YouTube</h3>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/9KLD9lhWdPk?si=aHK-Xc3sOi38l5JK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div><!-- /.wrapper -->
     </section><!-- /#sns -->
 
-    <footer>
+    <footer class="footer">
       <div class="wrapper">
-        <p><small>&copy; 2025 Yamabox</small></p>
+        <p class="footer-text"><small>&copy; 2025 Kosebox</small></p>
       </div>
     </footer>
   </body>
